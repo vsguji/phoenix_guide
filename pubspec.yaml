@@ -1,6 +1,6 @@
 name: phoenix_guide
-description: A new Flutter package project.
-version: 0.0.1
+description: phoenix 将做为企业级基础组件:Guide,提供项目支持。
+version: 1.0.0
 homepage: 'https://github.com/vsguji/phoenix_guide.git'
 
 environment:
@@ -10,7 +10,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-
+  phoenix_base: ^1.0.6
 dev_dependencies:
   flutter_test:
     sdk: flutter

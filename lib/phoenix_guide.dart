@@ -1,7 +1,6 @@
 library phoenix_guide;
 
-/// A Calculator.
-class Calculator {
-  /// Returns [value] plus 1.
-  int addOne(int value) => value + 1;
-}
+///
+export 'flutter_guide.dart';
+export 'pulse_widget.dart';
+export 'tip_widget.dart';
