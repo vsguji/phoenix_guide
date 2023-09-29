@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:phoenix_base/phoenix.dart';
 
+import 'extension/guide_assets.dart';
 import 'flutter_guide.dart';
 
 /// 引导组件试，[force] 有蒙层遮挡，[soft] 无蒙层遮挡
@@ -236,7 +237,8 @@ class TipInfoWidget extends StatelessWidget {
                       onClose!();
                     },
                     child: PhoenixTools.getAssetImageWithColor(
-                        BaseAsset.iconClose, Colors.black),
+                        GuideAssets.iconClose, Colors.black,
+                        package: 'phoenix_guide'),
                   ),
           ),
         ],
