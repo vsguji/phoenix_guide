@@ -1,4 +1,4 @@
-part of brn_intro;
+part of intro;
 
 /// 延时渲染一个 Widget
 class _DelayRenderedWidget extends StatefulWidget {

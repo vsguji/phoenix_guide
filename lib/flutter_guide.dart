@@ -1,4 +1,4 @@
-library brn_intro;
+library intro;
 
 import 'dart:async';
 import 'dart:math';

@@ -1,4 +1,4 @@
-part of brn_intro;
+part of intro;
 
 /// Highlight component parameters
 class WidgetParams {

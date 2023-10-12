@@ -1,4 +1,4 @@
-part of brn_intro;
+part of intro;
 
 /// 引导组件所处的方位
 enum GuideDirection { left, right, topLeft, bottomLeft, topRight, bottomRight }
